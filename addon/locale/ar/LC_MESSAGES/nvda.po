@@ -1,0 +1,86 @@
+# Arabic translations for 'classicSelection' package.
+# Copyright (C) 2026 Kamal Yaser
+# This file is distributed under the same license as the 'classicSelection' package.
+# Kamal Yaser <kamalyaser31@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'classicSelection' '2026.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-10-11 10:21+0300\n"
+"PO-Revision-Date: 2026-10-11 10:23+0300\n"
+"Last-Translator: Kamal Yaser <kamalyaser31@gmail.com>\n"
+"Language-Team: Arabic <kamalyaser31@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+#. Translators: Category for Classic Selection in Input Gestures dialog.
+#: addon\globalPlugins\classicSelection.py:34 buildVars.py:10
+msgid "Classic Selection"
+msgstr "التحديد الكلاسيكي"
+
+#: addon\globalPlugins\classicSelection.py:100
+msgid ""
+"Marks the current position of the review cursor as the start of text to be "
+"copied"
+msgstr "يعلّم الموضع الحالي لمؤشر المراجعة ليكون بداية النص المراد نسخه"
+
+#. Translators: Presented when there is no text to review or copy.
+#: addon\globalPlugins\classicSelection.py:110
+#: addon\globalPlugins\classicSelection.py:138
+#: addon\globalPlugins\classicSelection.py:152
+#: addon\globalPlugins\classicSelection.py:159
+msgid "No text to copy"
+msgstr "لا يوجد نص لنسخه"
+
+#. Translators: Indicates start of review cursor text to be copied.
+#: addon\globalPlugins\classicSelection.py:118
+msgid "Start marked"
+msgstr "تم تعليم البداية"
+
+#: addon\globalPlugins\classicSelection.py:123
+msgid ""
+"Retrieves the text from the previously set start marker up to and including "
+"the current position of the review cursor and copies it to the clipboard"
+msgstr ""
+"يجلب النص الواقع بين علامة البداية المحددة سابقاً وموضع مؤشر المراجعة "
+"الحالي وينسخه إلى الحافظة"
+
+#. Translators: Presented when attempting copy without start marker.
+#: addon\globalPlugins\classicSelection.py:133
+msgid "No start marker set"
+msgstr "لم تُحدَّد علامة بداية"
+
+#. Translators: Presented when trying to copy across different objects.
+#: addon\globalPlugins\classicSelection.py:147
+msgid "The start marker must reside within the same object"
+msgstr "يجب أن تكون علامة البداية داخل الكائن نفسه"
+
+#. Translators: Presented when review text is copied to clipboard.
+#: addon\globalPlugins\classicSelection.py:157
+msgid "Review selection copied to clipboard"
+msgstr "نُسِخ نص المراجعة المحدد إلى الحافظة"
+
+#: buildVars.py:12
+msgid ""
+"Restores the classic review cursor selection and copy behaviour of NVDA+f9 "
+"and NVDA+f10. Press NVDA+f9 to mark the start, and NVDA+f10 once to directly "
+"copy the review selection to the clipboard."
+msgstr ""
+"تستعيد الإضافة سلوك التحديد والنسخ الكلاسيكي لمؤشر المراجعة عبر NVDA+f9 "
+"وNVDA+f10؛ اضغط NVDA+f9 لتعليم البداية، ثم NVDA+f10 مرة واحدة لنسخ نص المراجعة "
+"المحدد مباشرة إلى الحافظة."
+
+#: buildVars.py:16
+msgid ""
+"- Version 2026.1: Modernized for NVDA 2024.1 through 2026.2 with 64-bit "
+"support, single-press review cursor copying, bi-directional review "
+"selection, and full input gesture integration."
+msgstr ""
+"- الإصدار 2026.1: تحديث الإضافة للتوافق مع إصدارات NVDA من 2024.1 حتى 2026.2، "
+"ودعم معمارية 64 بت، والنسخ بضغطة واحدة من مؤشر المراجعة، ودعم التحديد ثنائي "
+"الاتجاه، والتكامل الكامل مع إيماءات الإدخال."
