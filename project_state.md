@@ -6,6 +6,9 @@
 - **Version:** 2026.1
 - **Original Author:** Tyler Spivey <tspivey@pcdesk.net>
 - **Target NVDA Versions:** Minimum 2024.1.0, Last Tested 2026.2.0
+- **GitHub Repository:** `kamalyaser31/classicSelection`
+- **Release:** `v2026.1`
+- **Store Submission:** Issue `#12119` on `nvaccess/addon-datastore` (tagged `autoSubmissionFromIssue`, awaiting first-time submitter approval).
 
 ## Architecture & Implementation
 - **Layout:** Standard NVDA AddonTemplate SCons layout (`site_scons/`, `sconstruct`, `buildVars.py`, `addon/`).
