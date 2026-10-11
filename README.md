@@ -4,6 +4,9 @@ Classic Selection restores the single-press selection and copying behavior of `N
 
 In modern NVDA, pressing `NVDA+f10` once selects the text between the start marker and review cursor, requiring a second press within a short time window to actually copy the text to the clipboard. This add-on restores the classic, faster behavior: one press on `NVDA+f9` marks the start, and one single press on `NVDA+f10` immediately copies the review selection to your clipboard.
 
+> [!NOTE]
+> The original add-on by Tyler Spivey has not been updated by its author and is no longer compatible with modern NVDA releases (NVDA 2024.1+ and 64-bit Python 3.13 in NVDA 2026.1+). This modernized release completely overhauls the add-on to ensure full compatibility with modern and future NVDA versions.
+
 ## Problems it solves
 
 - Eliminates the need to double-press `NVDA+f10` to copy text from the review cursor.
