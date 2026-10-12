@@ -8,7 +8,7 @@
 - **Target NVDA Versions:** Minimum 2024.1.0, Last Tested 2026.2.0
 - **GitHub Repository:** `kamalyaser31/classicSelection`
 - **Release:** `v2026.1`
-- **Store Submission:** Issue `#12119` on `nvaccess/addon-datastore` (tagged `autoSubmissionFromIssue`, awaiting first-time submitter approval).
+- **Store Submission:** Issue `#12119` on `nvaccess/addon-datastore` closed after original author (`@tspivey`) offered to update his 2022.1 repository and submit it directly to the store.
 
 ## Architecture & Implementation
 - **Layout:** Standard NVDA AddonTemplate SCons layout (`site_scons/`, `sconstruct`, `buildVars.py`, `addon/`).
